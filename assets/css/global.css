@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #c72121;
+}
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+}
+
+header,
+footer {
+  min-height: 70px;
+}
+
+header {
+  width: 100%;
+  max-width: 1160px;
+  padding: 0 40px;
+  margin-bottom: 30px;
+}
+
+header p {
+  font-size: 30px;
+}
+
+.select {
+    margin-bottom: 70px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 50px;
+  max-width: 70%;
+}
+
+main {
+  text-align: center;
+  width: 100%;
+}
+
+section {
+  width: 100%;
+}
+
+.primary-text {
+  color: var(--primary-color);
+}
+
+.primary-btn,
+.secondary-btn {
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.secondary-btn:hover,
+.primary-btn {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.secondary-btn {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.primary-btn:hover {
+  background-color: #830505;
+}
+
+section:nth-child(even) {
+  background-color: rgb(239, 239, 239);
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.center-main {
+  justify-content: center;
+}
+
+.space-btwn-main {
+  justify-content: space-between;
+}
+
+.center-cross {
+  align-items: center;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+
+.gap-40 {
+  gap: 40px;
+}
+
+.gap-50 {
+  gap: 50px;
+}
+
+.gap-100 {
+  gap: 100px;
+}
+
+.gap-150 {
+  gap: 150px;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  max-width: 300px;
+  gap: 15px;
+}
+
+.section-space {
+  padding: 60px 20px;
+}
+
+.product img {
+  width: 200px;
+}
+
+.product p {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+#prices > h2 {
+  font-size: 35px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
