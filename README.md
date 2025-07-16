@@ -1,6 +1,6 @@
 ## 📖 Biblioteca
 
-Este é o repositório do site **Biblioteca um projeto desenvolvido para facilitar o acesso à biblioteca. O site tem como objetivo organizar, divulgar e gerenciar conteúdos e recursos da biblioteca de forma acessível para alunos, professores e demais usuários da comunidade escolar.
+Este é o repositório do site Biblioteca um projeto desenvolvido para facilitar o acesso à biblioteca. O site tem como objetivo organizar, divulgar e gerenciar conteúdos e recursos da biblioteca de forma acessível para alunos, professores e demais usuários da comunidade escolar.
 
 ## 🔍 Funcionalidades
 
